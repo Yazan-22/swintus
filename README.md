@@ -364,7 +364,7 @@ The complete game loop is:
           └───────┬───────┘
                   │
               YES ↓
-             🏆 WIN!
+              WIN!
 ```
 
 ---
