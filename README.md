@@ -276,7 +276,7 @@ You are about to play 🔴 7.
 
 Before doing so:
 
- "СВИНТУС!"
+ "Swintus!"
 ```
 
 If you forget to announce it and another player catches you, you may receive a penalty, commonly **drawing 3 cards**.
