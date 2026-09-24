@@ -1,12 +1,11 @@
-# 🐷 Swintus
+# Swintus
 
-**Swintus** (Свинтус) is a fast, chaotic card game from Russia, similar in spirit to **UNO**. The goal is simple: **get rid of all the cards in your hand before the other players do.**
-
+**Swintus** is a fast, chaotic card game from Russia, similar in spirit to **UNO**. The goal is simple: **get rid of all the cards in your hand before the other players do.**
 The game combines simple card matching with special action cards, unexpected attacks, and quick reactions.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The main objective is:
 
@@ -16,25 +15,24 @@ Players take turns placing cards that match the card currently on top of the dis
 
 You can usually play a card if it matches:
 
-* 🟢 The **color**
-* 🔢 The **number**
-* 🐷 The requirements of a **special card**
+*  The **color**
+*  The **number**
+*  The requirements of a **special card**
 
 The game becomes more chaotic when special cards are played.
 
 ---
 
-## 👥 Number of Players
+##  Number of Players
 
 Swintus can be played by:
 
 **2–10 players**
 
-The game is especially fun with **4–6 players**, because there are more opportunities to attack and interrupt other players.
 
 ---
 
-## 🃏 Setup
+##  Setup
 
 ### 1. Shuffle the cards
 
@@ -64,7 +62,7 @@ The player whose turn it is now starts the game.
 
 ---
 
-# ▶️ How to Play
+#  How to Play
 
 Players take turns clockwise unless a card changes the direction.
 
@@ -72,7 +70,7 @@ On your turn, look at the top card of the discard pile.
 
 You may play a card that matches the current card by:
 
-### 🎨 Matching the color
+###  Matching the color
 
 For example:
 
@@ -85,7 +83,7 @@ You can play:
 🔴 9
 ```
 
-### 🔢 Matching the number
+###  Matching the number
 
 For example:
 
@@ -104,7 +102,7 @@ So the basic rule is:
 
 ---
 
-## 🤷 What if You Cannot Play?
+##  What if You Cannot Play?
 
 If you don't have a playable card:
 
@@ -114,7 +112,7 @@ If you don't have a playable card:
 
 ---
 
-# 🐷 Special Cards
+#  Special Cards
 
 Special cards are what make Swintus different from a simple matching game.
 
@@ -124,7 +122,7 @@ The following are common special cards.
 
 ---
 
-## 🐷 Хапёж — "Grab"
+##  "Grab" 
 
 **Effect:**
 
@@ -144,7 +142,7 @@ This is one of the main attack cards in the game.
 
 ---
 
-## 😴 Захрапин — "Snorer"
+##  "Snorer"
 
 **Effect:**
 
@@ -159,12 +157,12 @@ Play Захрапин
  ↓
 Next player ❌
  ↓
-Following player ▶️
+Following player 
 ```
 
 ---
 
-## 🔄 Перехрюк — "Reverse"
+## "Reverse"
 
 **Effect:**
 
@@ -176,7 +174,7 @@ Before:
 Alice → Bob → Carol → David
 ```
 
-After Перехрюк:
+After Reverse:
 
 ```text
 Alice ← Bob ← Carol ← David
@@ -184,9 +182,9 @@ Alice ← Bob ← Carol ← David
 
 ---
 
-# 🎨 Полисвин — Color Change
+#  "Color Change"
 
-The **Полисвин** allows the player to choose the color that must be played next.
+The **Color Change** allows the player to choose the color that must be played next.
 
 For example:
 
@@ -194,7 +192,7 @@ For example:
 Current card: 🔴 4
 
 You play:
-🐷 Полисвин
+ Полисвин
 
 You choose:
 🔵 BLUE
@@ -206,9 +204,9 @@ This card is particularly useful when you have many cards of one color.
 
 ---
 
-# 👋 Хлопкопыт — Reaction Card
+#  "Reaction Card"
 
-Some versions include **Хлопкопыт**, a reaction card.
+Some versions include **Reaction Card**
 
 When it is played, players must quickly react by placing their hand on the deck/table.
 
@@ -216,13 +214,13 @@ The last player to react receives a penalty according to the rules of the editio
 
 This turns the game into a quick reaction challenge:
 
-> 🐷 **PLAY → REACT → PANIC → LAST PLAYER GETS PENALTY** 😂
+>  **PLAY → REACT → PANIC → LAST PLAYER GETS PENALTY** 
 
 ---
 
-# 🤫 Тихохрюн — Silence
+#   "Silence"
 
-**Тихохрюн** is a special card that introduces a temporary silence rule.
+**Silence** is a special card that introduces a temporary silence rule.
 
 After it is played, the affected player must remain silent for the specified period according to the rules.
 
@@ -230,9 +228,9 @@ Speaking when you are not allowed to can result in a penalty.
 
 ---
 
-# ⚡ Перехват — Interception
+# "Interception"
 
-Some editions/rules also allow **Перехват (Interception)**.
+Some editions/rules also allow **Interception**.
 
 If another player plays a card and you have an identical card, you may be able to play it immediately, even when it is not your turn.
 
@@ -248,7 +246,7 @@ Player B has:
 🔴 5
 
 Player B:
-⚡ INTERCEPT!
+ INTERCEPT!
 🔴 5
 ```
 
@@ -258,11 +256,11 @@ Player B effectively takes control of the play.
 
 ---
 
-# 🐷 The "Свинтус!" Rule
+#  The "Swintus!" Rule
 
 One of the most important rules is calling:
 
-> **"СВИНТУС!"**
+> **"Swintus!"**
 
 When you are down to **two cards**, you need to announce "Свинтус!" according to the rules.
 
@@ -278,14 +276,14 @@ You are about to play 🔴 7.
 
 Before doing so:
 
-🐷 "СВИНТУС!"
+ "СВИНТУС!"
 ```
 
 If you forget to announce it and another player catches you, you may receive a penalty, commonly **drawing 3 cards**.
 
 ---
 
-# 🏆 Winning the Round
+#  Winning the Round
 
 The first player who gets rid of **all cards in their hand** wins the round.
 
@@ -305,11 +303,11 @@ You play:
 
 Your hand is now empty.
 
-🎉 **You win the round!**
+ **You win the round!**
 
 ---
 
-# 🧮 Scoring
+#  Scoring
 
 Depending on the edition, Swintus can be played simply as a **race to empty your hand**, or with a scoring system.
 
@@ -373,90 +371,3 @@ The complete game loop is:
 ```
 
 ---
-
-# 🧠 Strategy Tips
-
-Although Swintus is easy to learn, there is still some strategy involved.
-
-### 1. Get rid of difficult cards
-
-Don't wait until the end to discover that you cannot play your remaining cards.
-
-### 2. Watch other players
-
-If another player has very few cards, they are dangerous.
-
-Use attack cards against them when possible.
-
-### 3. Save powerful cards
-
-Cards such as:
-
-* 🐷 Хапёж
-* 🔄 Перехрюк
-* 🎨 Полисвин
-
-can be extremely useful at the right moment.
-
-### 4. Control the color
-
-If you have many cards of one color, changing the active color to that color can give you more options.
-
-### 5. Remember "Свинтус!"
-
-Getting caught without announcing it can undo your progress very quickly.
-
----
-
-# 🆚 Swintus vs. UNO
-
-Swintus is often compared to UNO because both games use:
-
-* Matching colors
-* Matching numbers
-* Special action cards
-* Drawing cards
-* Skip/reverse effects
-* A race to empty your hand
-
-However, **Swintus has its own cards, terminology, penalties, and gameplay mechanics**, so it should not be treated as simply "Russian UNO."
-
----
-
-# 📋 Quick Rules Cheat Sheet
-
-| Situation        | What to do                   |
-| ---------------- | ---------------------------- |
-| Same color       | ✅ You can play               |
-| Same number      | ✅ You can play               |
-| No playable card | Draw a card                  |
-| Хапёж            | Next player draws 3          |
-| Захрапин         | Next player skips their turn |
-| Перехрюк         | Reverse direction            |
-| Полисвин         | Choose the next color        |
-| Хлопкопыт        | Quick reaction challenge     |
-| Тихохрюн         | Silence effect               |
-| 2 cards left     | Say **"Свинтус!"**           |
-| 0 cards          | 🏆 Win                       |
-
----
-
-# 🐷 In One Sentence
-
-> **Swintus is a fast Russian card game where you match colors or numbers, use special cards to attack your opponents, and race to get rid of all your cards first.**
-
----
-
-## 📚 Further Reading
-
-* [Official Swintus website](https://www.swintus.ru/)
-* [Swintus rules and game information](https://www.swintus.ru/)
-* [Hobby Games — Swintus rules](https://hobbygames.ru/download/rules/Swintus_Deluxe_Rules-web.pdf)
-
----
-
-## ⚠️ Edition Differences
-
-Swintus has several editions and variants. **The exact card effects, penalties, scoring, and some special rules may differ between editions.**
-
-If you are publishing an implementation of Swintus, it is recommended to specify **which edition/rule set your implementation follows**.
