@@ -251,7 +251,6 @@ Player B:
 
 Player B effectively takes control of the play.
 
-> Check the rules of your specific edition, as interception rules can vary.
 
 ---
 
@@ -308,7 +307,6 @@ Your hand is now empty.
 
 #  Scoring
 
-Depending on the edition, Swintus can be played simply as a **race to empty your hand**, or with a scoring system.
 
 In the common scoring approach, the winner receives points based on the cards remaining in the other players' hands.
 
@@ -323,7 +321,7 @@ Player D → 3 cards
 
 The winner can receive points based on the value of the cards remaining in the other players' hands.
 
-> **Important:** Scoring and the exact values of cards can differ between Swintus editions. Use the scoring table supplied with your deck.
+
 
 ---
 
