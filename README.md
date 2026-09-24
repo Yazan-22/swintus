@@ -262,7 +262,7 @@ One of the most important rules is calling:
 
 > **"Swintus!"**
 
-When you are down to **two cards**, you need to announce "Свинтус!" according to the rules.
+When you are down to **two cards**, you need to announce "Swintus!" according to the rules.
 
 For example:
 
