@@ -325,7 +325,7 @@ The winner can receive points based on the value of the cards remaining in the o
 
 ---
 
-# 🔄 Game Flow
+#  Game Flow
 
 The complete game loop is:
 
