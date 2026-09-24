@@ -2,7 +2,6 @@
 
 **Swintus** is a fast, chaotic card game from Russia, similar in spirit to **UNO**. The goal is simple: **get rid of all the cards in your hand before the other players do.**
 The game combines simple card matching with special action cards, unexpected attacks, and quick reactions.
-
 ---
 
 ## Objective
