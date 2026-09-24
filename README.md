@@ -131,7 +131,7 @@ The next player must draw **3 cards**.
 Example:
 
 ```text
-You → play Хапёж
+You → play Grab
 
 Next player:
 ⬇️
@@ -153,7 +153,7 @@ Example:
 ```text
 You
  ↓
-Play Захрапин
+Play Snorer
  ↓
 Next player ❌
  ↓
@@ -192,7 +192,7 @@ For example:
 Current card: 🔴 4
 
 You play:
- Полисвин
+ Color Change
 
 You choose:
 🔵 BLUE
