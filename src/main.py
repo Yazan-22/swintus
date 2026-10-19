@@ -1,7 +1,5 @@
-from .game import Game
+from .gui import main
 
-game = Game()
-game.add_player("Yazan")
-game.add_player("Ahmad")
-game.start()
-game.play_game()
+
+if __name__ == "__main__":
+    main()
