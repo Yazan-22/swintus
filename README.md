@@ -323,6 +323,37 @@ The winner can receive points based on the value of the cards remaining in the o
 
 ---
 
+# Current Implementation
+
+
+The current MVP includes:
+```text
+Object-oriented design using Card, Deck, Player, and Game classes.
+
+A 40-card deck with four colors and numbers from 0 to 9.
+
+Shuffling and dealing 8 cards to each player.
+
+A discard pile and a draw pile.
+
+Playing cards that match by color or number.
+
+Drawing a card when no playable card is available.
+
+Switching turns between two local players.
+
+Detecting the winner when a player's hand becomes empty.
+
+A graphical interface built with Tkinter.
+
+Unit tests for the core game logic.
+```
+Note: Special cards, scoring, the "Swintus!" announcement, and interception are not implemented in the current MVP.
+
+# How to Run
+Open a terminal in the project root directory.
+Run the game: python -m src.main
+
 #  Game Flow
 
 The complete game loop is:
