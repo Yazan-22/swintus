@@ -322,7 +322,7 @@ The winner can receive points based on the value of the cards remaining in the o
 
 
 ---
-
+---
 # Current Implementation
 
 
@@ -349,11 +349,11 @@ A graphical interface built with Tkinter.
 Unit tests for the core game logic.
 ```
 Note: Special cards, scoring, the "Swintus!" announcement, and interception are not implemented in the current MVP.
-
+---
 # How to Run
 Open a terminal in the project root directory.
 Run the game: python -m src.main
-
+---
 #  Game Flow
 
 The complete game loop is:
