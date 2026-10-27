@@ -6,10 +6,10 @@ from .game import Game
 
 
 COLORS = {
-    "red": "#dc2626",
-    "blue": "#2563eb",
-    "green": "#16a34a",
-    "yellow": "#ca8a04",
+    "red": "#741717",
+    "blue": "#0f327e",
+    "green": "#106930",
+    "yellow": "#ddcb26",
 }
 
 
@@ -105,7 +105,7 @@ class SwintusGUI:
         )
 
         self.discard_label.config(
-            text=f"{top_card.color.upper()}\n{top_card.value}",
+            text=f"{top_card.value}",
             bg=COLORS[top_card.color],
         )
 
@@ -115,8 +115,8 @@ class SwintusGUI:
         for card in current.hand:
             button = tk.Button(
                 self.hand_frame,
-                text=f"{card.color.upper()}\n{card.value}",
-                font=("Arial", 10, "bold"),
+                text=f"{card.value}",
+                font=("Arial", 15, "bold"),
                 width=8,
                 height=3,
                 bg=COLORS[card.color],
@@ -163,12 +163,20 @@ class SwintusGUI:
     def draw_card(self):
         if self.game_over:
             return
-
+        
         player = self.game.get_current_player()
-        self.game.draw_card_for_player(player)
-
-        self.game.next_player()
+        top_card = self.game.discard_pile[-1]
+        playable_cards = player.get_playable_cards(top_card) 
+        if playable_cards:
+            messagebox.showinfo("Error", "You have playable cards!")
+            return    
+        card = self.game.draw_card_for_player(player)
+        if not card.can_play_on(top_card):
+            self.game.next_player()  
         self.refresh_gui()
+
+                
+        
 
 
 def main():

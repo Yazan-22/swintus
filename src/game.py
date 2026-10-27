@@ -5,11 +5,11 @@ from .player import Player
 class Game:
     def __init__(self):
         self.deck = Deck()
-        self.players = []
+        self.players: list[Player] = []
         self.current_player_index = 0
         self.discard_pile = []
 
-    def get_current_player(self):
+    def get_current_player(self) -> Player:
         return self.players[self.current_player_index]    
     
     def next_player(self):
@@ -42,17 +42,15 @@ class Game:
 
     def play_card(self, player, card):
         top_card = self.discard_pile[-1]
-
         if not card.can_play_on(top_card):
             return False
         played_card = player.play_card(card)
         self.discard_pile.append(played_card)
         return True
     
-    def draw_card_for_player(self, player):
+    def draw_card_for_player(self, player:Player):
         if not self.deck.cards:
-            self.refill_deck()
-
+            self.refill_deck()      
         card = self.deck.draw_card()
         player.add_card(card)
         return card
@@ -70,9 +68,12 @@ class Game:
         else:
             card = self.draw_card_for_player(player)
             result = f"{player.name} drew {card}"
-
+            playable_cards = player.get_playable_cards(top_card)
+            if playable_cards:
+                card = playable_cards[0]
+                self.play_card(player, card)
+                result = f"{player.name} played {card}"
         self.next_player()
-
         return result
     
     def has_winner(self):

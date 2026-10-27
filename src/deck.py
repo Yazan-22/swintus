@@ -4,7 +4,7 @@ from .card import Card
 
 class Deck:
     def __init__(self):
-        self.cards = []
+        self.cards:list[Card] = []
         self.create_deck()
 
     def add_card(self, card):
@@ -21,7 +21,7 @@ class Deck:
     def shuffle(self):
         random.shuffle(self.cards)  
 
-    def draw_card(self):
+    def draw_card(self) -> Card:
         if not self.cards:
             raise ValueError("The deck is empty.")
 
