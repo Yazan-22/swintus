@@ -6,16 +6,24 @@ class Game:
     def __init__(self):
         self.deck = Deck()
         self.players: list[Player] = []
+        self.dir = 1 # moves right to get next player
         self.current_player_index = 0
         self.discard_pile = []
+    
+    def _reverse_players_order(self):
+        self.dir *= -1 # reverse the direction to get next player
+        
 
     def get_current_player(self) -> Player:
         return self.players[self.current_player_index]    
     
     def next_player(self):
-        self.current_player_index = (
-            self.current_player_index + 1
-        ) % len(self.players)
+        next_player_index = self.current_player_index + self.dir
+        if next_player_index == -1:
+            next_player_index = len(self.players) - 1
+        if next_player_index == len(self.players):
+            next_player_index = 0
+        self.current_player_index = next_player_index
 
     def add_player(self, name):
         player = Player(name)
@@ -40,12 +48,17 @@ class Game:
         self.discard_pile = [top_card]
         self.deck.shuffle()
 
-    def play_card(self, player, card):
+    def play_card(self, player:Player, card):
         top_card = self.discard_pile[-1]
         if not card.can_play_on(top_card):
             return False
         played_card = player.play_card(card)
         self.discard_pile.append(played_card)
+
+        # process special cards :
+        if played_card.value == 'reverse':
+            self._reverse_players_order()
+        # if reverse: reverse the order of payers
         return True
     
     def draw_card_for_player(self, player:Player):

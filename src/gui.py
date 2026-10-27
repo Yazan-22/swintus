@@ -23,6 +23,7 @@ class SwintusGUI:
         self.game = Game()
         self.game.add_player("Yazan")
         self.game.add_player("Ahmad")
+        self.game.add_player("Bashar")
         self.game.start()
 
         self.game_over = False
@@ -34,7 +35,7 @@ class SwintusGUI:
             bg="#1f2937",
             fg="white",
         ).pack(pady=12)
-
+        
         self.opponent_label = tk.Label(
             root,
             font=("Arial", 16),
@@ -91,6 +92,8 @@ class SwintusGUI:
 
     def refresh_gui(self):
         current = self.game.get_current_player()
+        print(self.game.players)
+        opponents = [p for p in self.game.players if p.name != current.name]
         opponent = self.game.players[
             1 - self.game.current_player_index
         ]
