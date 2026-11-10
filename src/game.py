@@ -1,5 +1,6 @@
 from .deck import Deck
 from .player import Player
+import random
 
 
 class Game:
@@ -99,7 +100,8 @@ class Game:
     def start(self):
         self.deal_cards()
         self.start_discard_pile()
-        self.current_player_index = 0
+        self.current_player_index = random.randrange(len(self.players))
+        
 
     def play_game(self):
         while self.has_winner() is None:
